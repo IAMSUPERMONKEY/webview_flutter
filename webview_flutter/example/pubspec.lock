@@ -300,23 +300,29 @@ packages:
   webview_flutter_android:
     dependency: transitive
     description:
-      name: webview_flutter_android
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_android
+      ref: HEAD
+      resolved-ref: "061cc3dc20722f671ed0bb81641e2da496b17574"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "2.8.2"
   webview_flutter_platform_interface:
     dependency: transitive
     description:
-      name: webview_flutter_platform_interface
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_platform_interface
+      ref: HEAD
+      resolved-ref: "061cc3dc20722f671ed0bb81641e2da496b17574"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "1.8.0"
   webview_flutter_wkwebview:
     dependency: transitive
     description:
-      name: webview_flutter_wkwebview
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_wkwebview
+      ref: HEAD
+      resolved-ref: "061cc3dc20722f671ed0bb81641e2da496b17574"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "2.7.1"
   win32:
     dependency: transitive
