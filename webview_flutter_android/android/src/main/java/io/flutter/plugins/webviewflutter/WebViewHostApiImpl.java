@@ -508,6 +508,7 @@ public class WebViewHostApiImpl implements WebViewHostApi {
   public void setWebChromeClient(Long instanceId, Long clientInstanceId) {
     final WebView webView = (WebView) instanceManager.getInstance(instanceId);
     webView.setWebChromeClient((WebChromeClient) instanceManager.getInstance(clientInstanceId));
+    webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
   }
 
   @Override
