@@ -498,23 +498,29 @@ packages:
   webview_flutter_android:
     dependency: "direct main"
     description:
-      name: webview_flutter_android
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_android
+      ref: HEAD
+      resolved-ref: "998a53ddf0f3545f2aec90f66fb42cf3ba56efff"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "2.8.2"
   webview_flutter_platform_interface:
     dependency: "direct main"
     description:
-      name: webview_flutter_platform_interface
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_platform_interface
+      ref: HEAD
+      resolved-ref: "998a53ddf0f3545f2aec90f66fb42cf3ba56efff"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "1.8.0"
   webview_flutter_wkwebview:
     dependency: "direct main"
     description:
-      name: webview_flutter_wkwebview
-      url: "https://pub.flutter-io.cn"
-    source: hosted
+      path: webview_flutter_wkwebview
+      ref: HEAD
+      resolved-ref: "998a53ddf0f3545f2aec90f66fb42cf3ba56efff"
+      url: "https://github.com/IAMSUPERMONKEY/webview_flutter"
+    source: git
     version: "2.7.1"
   yaml:
     dependency: transitive

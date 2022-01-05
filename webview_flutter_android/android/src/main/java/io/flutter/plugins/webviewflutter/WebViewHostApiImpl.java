@@ -11,6 +11,7 @@ import android.view.View;
 import android.webkit.DownloadListener;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -478,6 +479,7 @@ public class WebViewHostApiImpl implements WebViewHostApi {
   public void setWebViewClient(Long instanceId, Long webViewClientInstanceId) {
     final WebView webView = (WebView) instanceManager.getInstance(instanceId);
     webView.setWebViewClient((WebViewClient) instanceManager.getInstance(webViewClientInstanceId));
+    webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
   }
 
   @Override
